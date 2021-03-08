@@ -19,6 +19,6 @@
     "gridsome-source-rss": "^1.0.0",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
-    "theme-change": "^1.0.67"
+    "theme-change": "^1.2.0"
   }
 }
