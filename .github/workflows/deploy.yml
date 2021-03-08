@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: Получение исходников
         uses: actions/checkout@v1
+      
+      - name: Настройка окружения Node-JS
+        uses: actions/setup-node@v2
+        with:
+            node-version: '14'
 
       # Блеск и нищета NPM - очень часто авторы пакетов не следят за DEPRECATED
       - name: Установка пакетов
