@@ -7,29 +7,23 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Получение исходников
         uses: actions/checkout@v1
 
+      # Блеск и нищета NPM - очень часто авторы пакетов не следят за DEPRECATED
       - name: Установка пакетов
-        run: npm install -f
+        run: npm install
 
-      - name: Сборка сайта
-        run: yarn build
-
-      - name: Развертывание
-        uses: JamesIves/github-pages-deploy-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: main
-          BRANCH: gh-pages
-          FOLDER: dist
+      # Штатный GH-Pages ломает сборку
+      - name: Сборка сайта и развертывание
+        run: npm deploy
       
       - name: Очистка CDN кеша
         uses: jakejarvis/cloudflare-purge-action@master
         env:
-          # Zone is required by both authentication methods
+          # Зона для очистки кеша и секретный токен для Github
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
