@@ -12,13 +12,13 @@
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "@tailwindcss/typography": "github:tailwindcss/typography",
     "autoprefixer": "^9.8.6",
-    "daisyui": "^0.14.1",
+    "daisyui": "^0.11.5",
     "gh-pages": "^3.1.0",
     "gridsome": "^0.7.0",
     "gridsome-plugin-i18n": "^1.6.0",
     "gridsome-source-rss": "^1.0.0",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
-    "theme-change": "^1.2.0"
+    "theme-change": "^1.1.0"
   }
 }
