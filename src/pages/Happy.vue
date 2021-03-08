@@ -19,7 +19,9 @@
           </p> 
           <div class="card-actions">
             <button class="btn btn-outline">
+              <a :href="edge.node.id" target="_blank">
                 {{ edge.node.id }}
+              </a>
             </button> 
           </div>
           
