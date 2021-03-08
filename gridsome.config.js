@@ -42,6 +42,21 @@ module.exports = {
         // Parser options, see: https://www.npmjs.com/package/rss-parser
         parser: {}
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'docs/**/*.md',
+        typeName: 'Doc',
+        remark: {
+          externalLinksTarget: '_blank',
+          externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+          anchorClassName: 'icon icon-link',
+          plugins: [
+            'gridsome-plugin-remark-prismjs-all'
+          ]
+        }
+      }
     }
     
   ],
