@@ -7,8 +7,8 @@
       <a href="/happy" class="btn btn-ghost btn-sm rounded-btn">
               {{ $t("feed") }}
             </a> 
-      <a href="/about" class="btn btn-ghost btn-sm rounded-btn">
-              {{ $t("about") }}
+      <a href="/radiostream" class="btn btn-ghost btn-sm rounded-btn">
+              {{ $t("radiostream") }}
             </a> 
       <a href="/likecv" class="btn btn-ghost btn-sm rounded-btn">
               {{ $t("likecv") }}

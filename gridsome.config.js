@@ -57,6 +57,21 @@ module.exports = {
           ]
         }
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'hbd/podcasts/**/*.md',
+        typeName: 'Podcasts',
+        remark: {
+          externalLinksTarget: '_blank',
+          externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+          anchorClassName: 'icon icon-link',
+          plugins: [
+            'gridsome-plugin-remark-prismjs-all'
+          ]
+        }
+      }
     }
     
   ],
