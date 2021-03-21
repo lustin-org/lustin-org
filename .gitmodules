@@ -1,0 +1,3 @@
+[submodule "hbd"]
+	path = hbd
+	url = https://github.com/aliczin/howto-be-digital
