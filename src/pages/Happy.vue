@@ -45,7 +45,12 @@ query {
    	 totalCount
      edges {
       node {
-        id, title, pubDate, contentSnippet, author, content        
+        id, 
+        title, 
+        pubDate, 
+        contentSnippet, 
+        author, 
+        content        
       }
     }
   }
