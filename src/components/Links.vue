@@ -13,6 +13,9 @@
       <a href="/likecv" class="btn btn-ghost btn-sm rounded-btn">
               {{ $t("likecv") }}
             </a>
+      <a href="/discuss" class="btn btn-ghost btn-sm rounded-btn">
+              {{ $t("discuss.link") }}
+            </a>
     </div>
   </div>
 </template>
