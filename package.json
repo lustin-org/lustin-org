@@ -22,7 +22,7 @@
     "gridsome-plugin-remark-prismjs-all": "^0.3.5",
     "gridsome-source-rss": "^1.0.0",
     "iframe-resizer": "^4.3.1",
-    "postcss": "^7.0.35",
+    "postcss": "^8.2.9",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
     "theme-change": "^1.1.0"
   }
