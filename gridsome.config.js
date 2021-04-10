@@ -13,6 +13,17 @@ module.exports = {
   siteUrl: 'https://lustin.org',
   plugins: [
     {
+      use: "~/src/plugins/gridsome-mume-source",
+      options: {
+        path: 'book/**/*.md',
+        engineconfig: {
+          previewTheme: "github-dark.css",
+          revealjsTheme: "nigth.css",
+          codeBlockTheme: "default.css",
+        }
+      }
+    },
+    {
       use: "gridsome-plugin-i18n",
       options: {
         dateTimeFormats,
