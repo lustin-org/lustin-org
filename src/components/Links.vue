@@ -16,9 +16,10 @@
       <a href="/discuss" class="btn btn-ghost btn-sm rounded-btn">
               {{ $t("discuss.link") }}
             </a>
+      <!--
       <a href="/lifebook" class="btn btn-ghost btn-sm rounded-btn">
               {{ $t("book.link") }}
-            </a>
+            </a>-->
       <a href="/stats" class="btn btn-ghost btn-sm rounded-btn">
               {{ $t("stats.link") }}
             </a>
