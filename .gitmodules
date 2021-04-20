@@ -1,3 +1,6 @@
 [submodule "hbd"]
 	path = hbd
 	url = https://github.com/aliczin/howto-be-digital
+[submodule "include/lazyeco"]
+	path = include/lazyeco
+	url = https://github.com/aliczin/lazyeco
