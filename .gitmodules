@@ -4,3 +4,6 @@
 [submodule "include/lazyeco"]
 	path = include/lazyeco
 	url = https://github.com/aliczin/lazyeco
+[submodule "include/pggy"]
+	path = include/pggy
+	url = https://github.com/aliczin/pggy
