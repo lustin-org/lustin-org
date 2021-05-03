@@ -28,4 +28,5 @@
 
 * Amorphis
 * Paradise Lost
+* Leaves' Eyes
 * ...
