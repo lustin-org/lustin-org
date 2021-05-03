@@ -7,3 +7,6 @@
 [submodule "include/pggy"]
 	path = include/pggy
 	url = https://github.com/aliczin/pggy
+[submodule "include/stickerpack"]
+	path = include/stickerpack
+	url = https://github.com/aliczin/lustin-sticker-pack
