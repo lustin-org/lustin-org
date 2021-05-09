@@ -29,4 +29,5 @@
 * Amorphis
 * Paradise Lost
 * Leaves' Eyes
+* [Midnattsol](https://ru.wikipedia.org/wiki/Midnattsol)
 * ...
